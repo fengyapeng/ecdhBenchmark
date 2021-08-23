@@ -62,7 +62,7 @@ public class SingleTest {
     public static void main(String[] args) throws Exception {
         long start = System.nanoTime();
 
-        for (int i = 0; i < 15000; i++) {
+        for (int i = 0; i < 10000; i++) {
 
             KeyPair aPair = keyGen.generateKeyPair();
             getPrivateKey(aPair.getPrivate());
@@ -70,7 +70,7 @@ public class SingleTest {
         }
         long estimatedTime = System.nanoTime() - start;
 
-        System.out.println(TimeUnit.NANOSECONDS.toMicros(estimatedTime / 15000));
+        System.out.println(TimeUnit.NANOSECONDS.toMicros(estimatedTime));
     }
 
 
