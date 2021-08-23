@@ -1,0 +1,590 @@
+security provider BC not found, add BouncyCastleProvider
+# JMH version: 1.21
+# VM version: JDK 1.8.0_201, Java HotSpot(TM) 64-Bit Server VM, 25.201-b09
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/bin/java
+# VM options: -Xms1G -Xmx1G
+# Warmup: 2 iterations, 10 s each
+# Measurement: 3 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: test.ECDHBenchmarkTest.ecdhAes
+# Parameters: (length = 100)
+
+# Run progress: 0.00% complete, ETA 00:16:40
+# Fork: 1 of 1
+# Warmup Iteration   1: security provider BC not found, add BouncyCastleProvider
+29325.365 us/op
+# Warmup Iteration   2: 28186.661 us/op
+Iteration   1: 27984.507 us/op
+Iteration   2: 28007.670 us/op
+Iteration   3: 27963.837 us/op
+
+
+Result "test.ECDHBenchmarkTest.ecdhAes":
+  27985.338 ±(99.9%) 400.057 us/op [Average]
+  (min, avg, max) = (27963.837, 27985.338, 28007.670), stdev = 21.928
+  CI (99.9%): [27585.281, 28385.395] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 1.8.0_201, Java HotSpot(TM) 64-Bit Server VM, 25.201-b09
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/bin/java
+# VM options: -Xms1G -Xmx1G
+# Warmup: 2 iterations, 10 s each
+# Measurement: 3 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: test.ECDHBenchmarkTest.ecdhAes
+# Parameters: (length = 500)
+
+# Run progress: 5.00% complete, ETA 00:17:43
+# Fork: 1 of 1
+# Warmup Iteration   1: security provider BC not found, add BouncyCastleProvider
+158182.465 us/op
+# Warmup Iteration   2: 150487.418 us/op
+Iteration   1: 148095.638 us/op
+Iteration   2: 148937.023 us/op
+Iteration   3: 150107.246 us/op
+
+
+Result "test.ECDHBenchmarkTest.ecdhAes":
+  149046.636 ±(99.9%) 18431.151 us/op [Average]
+  (min, avg, max) = (148095.638, 149046.636, 150107.246), stdev = 1010.274
+  CI (99.9%): [130615.484, 167477.787] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 1.8.0_201, Java HotSpot(TM) 64-Bit Server VM, 25.201-b09
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/bin/java
+# VM options: -Xms1G -Xmx1G
+# Warmup: 2 iterations, 10 s each
+# Measurement: 3 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: test.ECDHBenchmarkTest.ecdhAes
+# Parameters: (length = 1000)
+
+# Run progress: 10.00% complete, ETA 00:16:50
+# Fork: 1 of 1
+# Warmup Iteration   1: security provider BC not found, add BouncyCastleProvider
+311539.406 us/op
+# Warmup Iteration   2: 297702.509 us/op
+Iteration   1: 296836.689 us/op
+Iteration   2: 306574.253 us/op
+Iteration   3: 323911.217 us/op
+
+
+Result "test.ECDHBenchmarkTest.ecdhAes":
+  309107.386 ±(99.9%) 250191.949 us/op [Average]
+  (min, avg, max) = (296836.689, 309107.386, 323911.217), stdev = 13713.865
+  CI (99.9%): [58915.438, 559299.335] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 1.8.0_201, Java HotSpot(TM) 64-Bit Server VM, 25.201-b09
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/bin/java
+# VM options: -Xms1G -Xmx1G
+# Warmup: 2 iterations, 10 s each
+# Measurement: 3 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: test.ECDHBenchmarkTest.ecdhAes
+# Parameters: (length = 5000)
+
+# Run progress: 15.00% complete, ETA 00:15:56
+# Fork: 1 of 1
+# Warmup Iteration   1: security provider BC not found, add BouncyCastleProvider
+1669357.025 us/op
+# Warmup Iteration   2: 1613118.605 us/op
+Iteration   1: 1551897.748 us/op
+Iteration   2: 1535768.324 us/op
+Iteration   3: 1534464.792 us/op
+
+
+Result "test.ECDHBenchmarkTest.ecdhAes":
+  1540710.288 ±(99.9%) 177156.071 us/op [Average]
+  (min, avg, max) = (1534464.792, 1540710.288, 1551897.748), stdev = 9710.522
+  CI (99.9%): [1363554.217, 1717866.359] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 1.8.0_201, Java HotSpot(TM) 64-Bit Server VM, 25.201-b09
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/bin/java
+# VM options: -Xms1G -Xmx1G
+# Warmup: 2 iterations, 10 s each
+# Measurement: 3 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: test.ECDHBenchmarkTest.ecdhAes
+# Parameters: (length = 10000)
+
+# Run progress: 20.00% complete, ETA 00:15:13
+# Fork: 1 of 1
+# Warmup Iteration   1: security provider BC not found, add BouncyCastleProvider
+3060598.221 us/op
+# Warmup Iteration   2: 3102818.998 us/op
+Iteration   1: 3209834.101 us/op
+Iteration   2: 3251316.438 us/op
+Iteration   3: 3200378.725 us/op
+
+
+Result "test.ECDHBenchmarkTest.ecdhAes":
+  3220509.755 ±(99.9%) 494313.940 us/op [Average]
+  (min, avg, max) = (3200378.725, 3220509.755, 3251316.438), stdev = 27095.015
+  CI (99.9%): [2726195.815, 3714823.695] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 1.8.0_201, Java HotSpot(TM) 64-Bit Server VM, 25.201-b09
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/bin/java
+# VM options: -Xms1G -Xmx1G
+# Warmup: 2 iterations, 10 s each
+# Measurement: 3 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: test.ECDHBenchmarkTest.generateECDHKeyPair
+# Parameters: (length = 100)
+
+# Run progress: 25.00% complete, ETA 00:14:52
+# Fork: 1 of 1
+# Warmup Iteration   1: security provider BC not found, add BouncyCastleProvider
+8420.732 us/op
+# Warmup Iteration   2: 8159.725 us/op
+Iteration   1: 8152.250 us/op
+Iteration   2: 8169.199 us/op
+Iteration   3: 8266.201 us/op
+
+
+Result "test.ECDHBenchmarkTest.generateECDHKeyPair":
+  8195.883 ±(99.9%) 1121.687 us/op [Average]
+  (min, avg, max) = (8152.250, 8195.883, 8266.201), stdev = 61.483
+  CI (99.9%): [7074.197, 9317.570] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 1.8.0_201, Java HotSpot(TM) 64-Bit Server VM, 25.201-b09
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/bin/java
+# VM options: -Xms1G -Xmx1G
+# Warmup: 2 iterations, 10 s each
+# Measurement: 3 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: test.ECDHBenchmarkTest.generateECDHKeyPair
+# Parameters: (length = 500)
+
+# Run progress: 30.00% complete, ETA 00:13:44
+# Fork: 1 of 1
+# Warmup Iteration   1: security provider BC not found, add BouncyCastleProvider
+42429.860 us/op
+# Warmup Iteration   2: 41348.073 us/op
+Iteration   1: 41732.311 us/op
+Iteration   2: 41749.825 us/op
+Iteration   3: 41687.099 us/op
+
+
+Result "test.ECDHBenchmarkTest.generateECDHKeyPair":
+  41723.078 ±(99.9%) 590.475 us/op [Average]
+  (min, avg, max) = (41687.099, 41723.078, 41749.825), stdev = 32.366
+  CI (99.9%): [41132.603, 42313.554] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 1.8.0_201, Java HotSpot(TM) 64-Bit Server VM, 25.201-b09
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/bin/java
+# VM options: -Xms1G -Xmx1G
+# Warmup: 2 iterations, 10 s each
+# Measurement: 3 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: test.ECDHBenchmarkTest.generateECDHKeyPair
+# Parameters: (length = 1000)
+
+# Run progress: 35.00% complete, ETA 00:12:40
+# Fork: 1 of 1
+# Warmup Iteration   1: security provider BC not found, add BouncyCastleProvider
+84749.004 us/op
+# Warmup Iteration   2: 83033.916 us/op
+Iteration   1: 82537.517 us/op
+Iteration   2: 82757.268 us/op
+Iteration   3: 82721.269 us/op
+
+
+Result "test.ECDHBenchmarkTest.generateECDHKeyPair":
+  82672.018 ±(99.9%) 2150.274 us/op [Average]
+  (min, avg, max) = (82537.517, 82672.018, 82757.268), stdev = 117.864
+  CI (99.9%): [80521.745, 84822.292] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 1.8.0_201, Java HotSpot(TM) 64-Bit Server VM, 25.201-b09
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/bin/java
+# VM options: -Xms1G -Xmx1G
+# Warmup: 2 iterations, 10 s each
+# Measurement: 3 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: test.ECDHBenchmarkTest.generateECDHKeyPair
+# Parameters: (length = 5000)
+
+# Run progress: 40.00% complete, ETA 00:11:38
+# Fork: 1 of 1
+# Warmup Iteration   1: security provider BC not found, add BouncyCastleProvider
+422183.964 us/op
+# Warmup Iteration   2: 410009.902 us/op
+Iteration   1: 408530.770 us/op
+Iteration   2: 410137.269 us/op
+Iteration   3: 410275.609 us/op
+
+
+Result "test.ECDHBenchmarkTest.generateECDHKeyPair":
+  409647.883 ±(99.9%) 17694.902 us/op [Average]
+  (min, avg, max) = (408530.770, 409647.883, 410275.609), stdev = 969.917
+  CI (99.9%): [391952.981, 427342.785] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 1.8.0_201, Java HotSpot(TM) 64-Bit Server VM, 25.201-b09
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/bin/java
+# VM options: -Xms1G -Xmx1G
+# Warmup: 2 iterations, 10 s each
+# Measurement: 3 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: test.ECDHBenchmarkTest.generateECDHKeyPair
+# Parameters: (length = 10000)
+
+# Run progress: 45.00% complete, ETA 00:10:38
+# Fork: 1 of 1
+# Warmup Iteration   1: security provider BC not found, add BouncyCastleProvider
+845887.953 us/op
+# Warmup Iteration   2: 826333.537 us/op
+Iteration   1: 824052.392 us/op
+Iteration   2: 825187.672 us/op
+Iteration   3: 884622.351 us/op
+
+
+Result "test.ECDHBenchmarkTest.generateECDHKeyPair":
+  844620.805 ±(99.9%) 632090.359 us/op [Average]
+  (min, avg, max) = (824052.392, 844620.805, 884622.351), stdev = 34647.005
+  CI (99.9%): [212530.446, 1476711.164] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 1.8.0_201, Java HotSpot(TM) 64-Bit Server VM, 25.201-b09
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/bin/java
+# VM options: -Xms1G -Xmx1G
+# Warmup: 2 iterations, 10 s each
+# Measurement: 3 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: test.ECDHBenchmarkTest.generateECDHSecret
+# Parameters: (length = 100)
+
+# Run progress: 50.00% complete, ETA 00:09:41
+# Fork: 1 of 1
+# Warmup Iteration   1: security provider BC not found, add BouncyCastleProvider
+31852.758 us/op
+# Warmup Iteration   2: 32094.225 us/op
+Iteration   1: 32247.492 us/op
+Iteration   2: 31762.253 us/op
+Iteration   3: 30592.625 us/op
+
+
+Result "test.ECDHBenchmarkTest.generateECDHSecret":
+  31534.123 ±(99.9%) 15519.806 us/op [Average]
+  (min, avg, max) = (30592.625, 31534.123, 32247.492), stdev = 850.693
+  CI (99.9%): [16014.318, 47053.929] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 1.8.0_201, Java HotSpot(TM) 64-Bit Server VM, 25.201-b09
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/bin/java
+# VM options: -Xms1G -Xmx1G
+# Warmup: 2 iterations, 10 s each
+# Measurement: 3 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: test.ECDHBenchmarkTest.generateECDHSecret
+# Parameters: (length = 500)
+
+# Run progress: 55.00% complete, ETA 00:08:41
+# Fork: 1 of 1
+# Warmup Iteration   1: security provider BC not found, add BouncyCastleProvider
+160756.291 us/op
+# Warmup Iteration   2: 150852.506 us/op
+Iteration   1: 154606.529 us/op
+Iteration   2: 155909.821 us/op
+Iteration   3: 151801.411 us/op
+
+
+Result "test.ECDHBenchmarkTest.generateECDHSecret":
+  154105.920 ±(99.9%) 38301.894 us/op [Average]
+  (min, avg, max) = (151801.411, 154105.920, 155909.821), stdev = 2099.456
+  CI (99.9%): [115804.026, 192407.814] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 1.8.0_201, Java HotSpot(TM) 64-Bit Server VM, 25.201-b09
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/bin/java
+# VM options: -Xms1G -Xmx1G
+# Warmup: 2 iterations, 10 s each
+# Measurement: 3 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: test.ECDHBenchmarkTest.generateECDHSecret
+# Parameters: (length = 1000)
+
+# Run progress: 60.00% complete, ETA 00:07:42
+# Fork: 1 of 1
+# Warmup Iteration   1: security provider BC not found, add BouncyCastleProvider
+303760.401 us/op
+# Warmup Iteration   2: 297237.463 us/op
+Iteration   1: 294049.355 us/op
+Iteration   2: 294476.511 us/op
+Iteration   3: 306396.006 us/op
+
+
+Result "test.ECDHBenchmarkTest.generateECDHSecret":
+  298307.291 ±(99.9%) 127857.257 us/op [Average]
+  (min, avg, max) = (294049.355, 298307.291, 306396.006), stdev = 7008.288
+  CI (99.9%): [170450.034, 426164.548] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 1.8.0_201, Java HotSpot(TM) 64-Bit Server VM, 25.201-b09
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/bin/java
+# VM options: -Xms1G -Xmx1G
+# Warmup: 2 iterations, 10 s each
+# Measurement: 3 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: test.ECDHBenchmarkTest.generateECDHSecret
+# Parameters: (length = 5000)
+
+# Run progress: 65.00% complete, ETA 00:06:43
+# Fork: 1 of 1
+# Warmup Iteration   1: security provider BC not found, add BouncyCastleProvider
+1492884.100 us/op
+# Warmup Iteration   2: 1462362.615 us/op
+Iteration   1: 1510217.537 us/op
+Iteration   2: 1514604.992 us/op
+Iteration   3: 1516471.900 us/op
+
+
+Result "test.ECDHBenchmarkTest.generateECDHSecret":
+  1513764.810 ±(99.9%) 58575.409 us/op [Average]
+  (min, avg, max) = (1510217.537, 1513764.810, 1516471.900), stdev = 3210.716
+  CI (99.9%): [1455189.401, 1572340.219] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 1.8.0_201, Java HotSpot(TM) 64-Bit Server VM, 25.201-b09
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/bin/java
+# VM options: -Xms1G -Xmx1G
+# Warmup: 2 iterations, 10 s each
+# Measurement: 3 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: test.ECDHBenchmarkTest.generateECDHSecret
+# Parameters: (length = 10000)
+
+# Run progress: 70.00% complete, ETA 00:05:46
+# Fork: 1 of 1
+# Warmup Iteration   1: security provider BC not found, add BouncyCastleProvider
+2951351.308 us/op
+# Warmup Iteration   2: 2909158.168 us/op
+Iteration   1: 2930024.371 us/op
+Iteration   2: 3018727.661 us/op
+Iteration   3: 3107599.354 us/op
+
+
+Result "test.ECDHBenchmarkTest.generateECDHSecret":
+  3018783.795 ±(99.9%) 1619814.614 us/op [Average]
+  (min, avg, max) = (2930024.371, 3018783.795, 3107599.354), stdev = 88787.505
+  CI (99.9%): [1398969.181, 4638598.409] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 1.8.0_201, Java HotSpot(TM) 64-Bit Server VM, 25.201-b09
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/bin/java
+# VM options: -Xms1G -Xmx1G
+# Warmup: 2 iterations, 10 s each
+# Measurement: 3 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: test.ECDHBenchmarkTest.singleAes
+# Parameters: (length = 100)
+
+# Run progress: 75.00% complete, ETA 00:04:51
+# Fork: 1 of 1
+# Warmup Iteration   1: security provider BC not found, add BouncyCastleProvider
+184.379 us/op
+# Warmup Iteration   2: 180.258 us/op
+Iteration   1: 186.195 us/op
+Iteration   2: 188.750 us/op
+Iteration   3: 188.427 us/op
+
+
+Result "test.ECDHBenchmarkTest.singleAes":
+  187.791 ±(99.9%) 25.387 us/op [Average]
+  (min, avg, max) = (186.195, 187.791, 188.750), stdev = 1.392
+  CI (99.9%): [162.404, 213.177] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 1.8.0_201, Java HotSpot(TM) 64-Bit Server VM, 25.201-b09
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/bin/java
+# VM options: -Xms1G -Xmx1G
+# Warmup: 2 iterations, 10 s each
+# Measurement: 3 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: test.ECDHBenchmarkTest.singleAes
+# Parameters: (length = 500)
+
+# Run progress: 80.00% complete, ETA 00:03:52
+# Fork: 1 of 1
+# Warmup Iteration   1: security provider BC not found, add BouncyCastleProvider
+935.150 us/op
+# Warmup Iteration   2: 946.183 us/op
+Iteration   1: 950.936 us/op
+Iteration   2: 952.440 us/op
+Iteration   3: 952.153 us/op
+
+
+Result "test.ECDHBenchmarkTest.singleAes":
+  951.843 ±(99.9%) 14.566 us/op [Average]
+  (min, avg, max) = (950.936, 951.843, 952.440), stdev = 0.798
+  CI (99.9%): [937.277, 966.409] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 1.8.0_201, Java HotSpot(TM) 64-Bit Server VM, 25.201-b09
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/bin/java
+# VM options: -Xms1G -Xmx1G
+# Warmup: 2 iterations, 10 s each
+# Measurement: 3 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: test.ECDHBenchmarkTest.singleAes
+# Parameters: (length = 1000)
+
+# Run progress: 85.00% complete, ETA 00:02:53
+# Fork: 1 of 1
+# Warmup Iteration   1: security provider BC not found, add BouncyCastleProvider
+1913.653 us/op
+# Warmup Iteration   2: 1867.221 us/op
+Iteration   1: 1872.040 us/op
+Iteration   2: 1878.300 us/op
+Iteration   3: 1867.835 us/op
+
+
+Result "test.ECDHBenchmarkTest.singleAes":
+  1872.725 ±(99.9%) 96.065 us/op [Average]
+  (min, avg, max) = (1867.835, 1872.725, 1878.300), stdev = 5.266
+  CI (99.9%): [1776.660, 1968.790] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 1.8.0_201, Java HotSpot(TM) 64-Bit Server VM, 25.201-b09
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/bin/java
+# VM options: -Xms1G -Xmx1G
+# Warmup: 2 iterations, 10 s each
+# Measurement: 3 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: test.ECDHBenchmarkTest.singleAes
+# Parameters: (length = 5000)
+
+# Run progress: 90.00% complete, ETA 00:01:55
+# Fork: 1 of 1
+# Warmup Iteration   1: security provider BC not found, add BouncyCastleProvider
+9266.501 us/op
+# Warmup Iteration   2: 9223.856 us/op
+Iteration   1: 9186.901 us/op
+Iteration   2: 9380.409 us/op
+Iteration   3: 9958.285 us/op
+
+
+Result "test.ECDHBenchmarkTest.singleAes":
+  9508.532 ±(99.9%) 7321.839 us/op [Average]
+  (min, avg, max) = (9186.901, 9508.532, 9958.285), stdev = 401.335
+  CI (99.9%): [2186.693, 16830.371] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 1.8.0_201, Java HotSpot(TM) 64-Bit Server VM, 25.201-b09
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/bin/java
+# VM options: -Xms1G -Xmx1G
+# Warmup: 2 iterations, 10 s each
+# Measurement: 3 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: test.ECDHBenchmarkTest.singleAes
+# Parameters: (length = 10000)
+
+# Run progress: 95.00% complete, ETA 00:00:57
+# Fork: 1 of 1
+# Warmup Iteration   1: security provider BC not found, add BouncyCastleProvider
+18917.053 us/op
+# Warmup Iteration   2: 18993.270 us/op
+Iteration   1: 19250.910 us/op
+Iteration   2: 19229.270 us/op
+Iteration   3: 19250.581 us/op
+
+
+Result "test.ECDHBenchmarkTest.singleAes":
+  19243.587 ±(99.9%) 226.227 us/op [Average]
+  (min, avg, max) = (19229.270, 19243.587, 19250.910), stdev = 12.400
+  CI (99.9%): [19017.360, 19469.814] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:19:13
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+Benchmark                              (length)  Mode  Cnt        Score         Error  Units
+ECDHBenchmarkTest.ecdhAes                   100  avgt    3    27985.338 ±     400.057  us/op
+ECDHBenchmarkTest.ecdhAes                   500  avgt    3   149046.636 ±   18431.151  us/op
+ECDHBenchmarkTest.ecdhAes                  1000  avgt    3   309107.386 ±  250191.949  us/op
+ECDHBenchmarkTest.ecdhAes                  5000  avgt    3  1540710.288 ±  177156.071  us/op
+ECDHBenchmarkTest.ecdhAes                 10000  avgt    3  3220509.755 ±  494313.940  us/op
+ECDHBenchmarkTest.generateECDHKeyPair       100  avgt    3     8195.883 ±    1121.687  us/op
+ECDHBenchmarkTest.generateECDHKeyPair       500  avgt    3    41723.078 ±     590.475  us/op
+ECDHBenchmarkTest.generateECDHKeyPair      1000  avgt    3    82672.018 ±    2150.274  us/op
+ECDHBenchmarkTest.generateECDHKeyPair      5000  avgt    3   409647.883 ±   17694.902  us/op
+ECDHBenchmarkTest.generateECDHKeyPair     10000  avgt    3   844620.805 ±  632090.359  us/op
+ECDHBenchmarkTest.generateECDHSecret        100  avgt    3    31534.123 ±   15519.806  us/op
+ECDHBenchmarkTest.generateECDHSecret        500  avgt    3   154105.920 ±   38301.894  us/op
+ECDHBenchmarkTest.generateECDHSecret       1000  avgt    3   298307.291 ±  127857.257  us/op
+ECDHBenchmarkTest.generateECDHSecret       5000  avgt    3  1513764.810 ±   58575.409  us/op
+ECDHBenchmarkTest.generateECDHSecret      10000  avgt    3  3018783.795 ± 1619814.614  us/op
+ECDHBenchmarkTest.singleAes                 100  avgt    3      187.791 ±      25.387  us/op
+ECDHBenchmarkTest.singleAes                 500  avgt    3      951.843 ±      14.566  us/op
+ECDHBenchmarkTest.singleAes                1000  avgt    3     1872.725 ±      96.065  us/op
+ECDHBenchmarkTest.singleAes                5000  avgt    3     9508.532 ±    7321.839  us/op
+ECDHBenchmarkTest.singleAes               10000  avgt    3    19243.587 ±     226.227  us/op
